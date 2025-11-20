@@ -2,6 +2,9 @@
 import warnings
 warnings.filterwarnings("ignore", message="resource_tracker")
 warnings.filterwarnings("ignore", category=UserWarning, module="multiprocessing")
+warnings.filterwarnings("ignore", category=FutureWarning, module="huggingface_hub")
+
+
 
 import streamlit as st
 
