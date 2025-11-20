@@ -1,0 +1,68 @@
+# ---------------------------
+# Python virtual environments
+# ---------------------------
+.venv/
+venv/
+ENV/
+env/
+
+# ---------------------------
+# Python cache files
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------------------
+# Temporary files and logs
+# ---------------------------
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ---------------------------
+# OS-specific files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Streamlit cache & secrets
+# ---------------------------
+.streamlit/
+
+# ---------------------------
+# FAISS / vector store files
+# ---------------------------
+faiss_index/
+*.faiss
+*.bin
+*.npy
+
+# ---------------------------
+# Hugging Face cache files
+# ---------------------------
+huggingface_cache/
+transformers_cache/
+~/.cache/huggingface/
+
+# ---------------------------
+# Model artifacts / checkpoints
+# ---------------------------
+checkpoints/
+models/
+
+# ---------------------------
+# Environment / project metadata
+# ---------------------------
+# KEEP .python-version in repo so all teammates use same Python version
+*.env
+.env.*
+.envrc
+
+# ---------------------------
+# Jupyter / notebook artifacts
+# ---------------------------
+.ipynb_checkpoints/

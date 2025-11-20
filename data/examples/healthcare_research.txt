@@ -1,0 +1,9 @@
+The study tracked 350 patients for 12 months to evaluate telemedicine follow-ups for chronic heart failure.
+
+Groups:
+- Standard in-person care
+- Weekly telemedicine monitoring with home sensors
+
+Findings: 22% reduction in hospital readmissions for telemedicine.
+Limitation: sensor accuracy declines over time.
+Conclusion: telemedicine is helpful but not a total replacement.
