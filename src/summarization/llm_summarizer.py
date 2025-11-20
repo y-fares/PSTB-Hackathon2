@@ -78,7 +78,7 @@ class LLMSummarizer:
                 **inputs,
                 max_new_tokens=96,   # how long the answer can be  # initially 256 – this makes it much faster
                 do_sample=False,      # deterministic output
-                temperature=0.0,      # no randomness
+                #temperature=0.0,      # no randomness
             )
 
         # We only want the generated part, not the full prompt again.
